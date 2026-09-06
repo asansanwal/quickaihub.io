@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuickAIHub - Ship AI faster. Sell what you build.</title>
+<meta name="description" content="Discover, sell and deploy AI models, datasets, tools, agents, prompts, compute and services. The marketplace for AI creators and buyers, with the AI agent marketplace now live.">
+<meta property="og:title" content="QuickAIHub - Ship AI faster. Sell what you build.">
+<meta property="og:description" content="Discover, sell and deploy AI models, datasets, tools, agents, prompts, compute and services. The marketplace for AI creators and buyers, with the AI agent marketplace now live.">
+<meta property="og:image" content="https://asansanwal.github.io/quickaihub.io/assets/hero.jpg">
+<meta property="og:url" content="https://quickaihub.io">
+<link rel="icon" href="assets/logo.svg">
+<link rel="canonical" href="https://asansanwal.github.io/quickaihub.io/">
+<style>
+:root { --accent: #6366f1; --bg: #0b0d12; --card: #151923; --fg: #e8ecf3; --muted: #9aa3b5; --line: #242a38; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0b0d12; --card: #151923; --fg: #e8ecf3; --muted: #9aa3b5; --line: #242a38; } }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--fg); line-height: 1.55; }
+a { color: var(--accent); text-decoration: none; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--fg); font-weight: 700; font-size: 1.15rem; }
+.brand img { width: 36px; height: 36px; border-radius: 9px; }
+.brand small { color: var(--muted); font-weight: 400; margin-left: 6px; }
+.btn { display: inline-block; background: var(--accent); color: #fff; padding: 12px 22px; border-radius: 10px; font-weight: 600; box-shadow: 0 6px 18px rgba(0,0,0,.15); }
+.btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); box-shadow: none; }
+.hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 40px; align-items: center; padding: 56px 0 32px; }
+.hero h1 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; margin: 0 0 14px; }
+.hero p.lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 26px; }
+.hero .cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.shot { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px; box-shadow: 0 20px 50px rgba(0,0,0,.18); }
+.shot img { width: 100%; height: auto; border-radius: 8px; display: block; }
+.facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 24px 0 8px; }
+.fact { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; text-align: center; }
+.fact b { display: block; font-size: 1.5rem; color: var(--accent); }
+.fact span { color: var(--muted); font-size: .9rem; }
+section { padding: 34px 0; }
+h2 { font-size: 1.5rem; margin: 0 0 18px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.feat { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+.feat h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.feat p { margin: 0; color: var(--muted); font-size: .95rem; }
+.shots { display: grid; grid-template-columns: 2.6fr 1fr; gap: 18px; align-items: start; }
+.shots figure, .gal figure { margin: 0; }
+figcaption { color: var(--muted); font-size: .85rem; margin-top: 8px; text-align: center; }
+.gal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.gal img { width: 100%; border-radius: 10px; border: 1px solid var(--line); }
+.family { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.sib { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; color: var(--fg); font-size: .92rem; }
+.sib img { width: 22px; height: 22px; border-radius: 6px; }
+footer { border-top: 1px solid var(--line); padding: 26px 0 40px; color: var(--muted); font-size: .9rem; }
+footer a { color: var(--fg); }
+@media (max-width: 860px) { .hero, .shots { grid-template-columns: 1fr; } .facts, .grid, .gal { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .facts, .grid, .gal { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="https://quickaihub.io"><img src="assets/logo.svg" alt="QuickAIHub logo">QuickAIHub<small>quickaihub.io</small></a>
+  <a class="btn" href="https://quickaihub.io">Open quickaihub.io</a>
+</header>
+<div class="hero">
+  <div>
+    <h1>Ship AI faster. Sell what you build.</h1>
+    <p class="lead">Discover, sell and deploy AI models, datasets, tools, agents, prompts, compute and services. The marketplace for AI creators and buyers, with the AI agent marketplace now live.</p>
+    <div class="cta"><a class="btn" href="https://quickaihub.io">Visit quickaihub.io</a><a class="btn ghost" href="https://github.com/asansanwal/quickaihub.io">Project on GitHub</a></div>
+  </div>
+  <a class="shot" href="https://quickaihub.io"><img src="assets/hero.jpg" alt="QuickAIHub website"></a>
+</div>
+<div class="facts"><div class="fact"><b>10,000+</b><span>assets</span></div><div class="fact"><b>One-click</b><span>deploy</span></div><div class="fact"><b>Verified</b><span>creators</span></div><div class="fact"><b>Open</b><span>ecosystem</span></div></div>
+<section><h2>What QuickAIHub does</h2><div class="grid"><div class="feat"><h3>Seven asset types</h3><p>AI agents, compute, datasets, models, prompts, services, tools and apps.</p></div><div class="feat"><h3>One-click deploy</h3><p>Run what you buy without leaving the platform.</p></div><div class="feat"><h3>Verified creators</h3><p>Publish your own assets and reach a global audience.</p></div><div class="feat"><h3>Real-time analytics</h3><p>Downloads, revenue and usage as they happen.</p></div><div class="feat"><h3>Flexible pricing</h3><p>Free, one-off or metered, set by the creator.</p></div><div class="feat"><h3>Live in three steps</h3><p>Sign up in seconds, browse or publish, ship and get paid.</p></div></div></section>
+<section><h2>Screens</h2><div class="shots">
+  <figure><a href="https://quickaihub.io"><img class="shot" style="padding:0" src="assets/full.jpg" alt="Full page of quickaihub.io" loading="lazy"></a><figcaption>quickaihub.io on desktop (full page)</figcaption></figure>
+  <figure><a href="https://quickaihub.io"><img class="shot" style="padding:0" src="assets/mobile.jpg" alt="quickaihub.io on a phone" loading="lazy"></a><figcaption>on a phone</figcaption></figure>
+</div></section>
+<section><h2>More projects</h2><div class="family"><a class="sib" href="https://asansanwal.github.io/quickpod.io/"><img src="https://asansanwal.github.io/quickpod.io/assets/logo.svg" alt=""><span>QuickPod</span></a><a class="sib" href="https://asansanwal.github.io/quickopen.ai/"><img src="https://asansanwal.github.io/quickopen.ai/assets/logo.svg" alt=""><span>QuickOpen</span></a><a class="sib" href="https://asansanwal.github.io/quickos/"><img src="https://asansanwal.github.io/quickos/assets/logo.svg" alt=""><span>Quick OS</span></a><a class="sib" href="https://asansanwal.github.io/commonscreens.com/"><img src="https://asansanwal.github.io/commonscreens.com/assets/logo.svg" alt=""><span>Common Screens</span></a><a class="sib" href="https://asansanwal.github.io/apiquick.io/"><img src="https://asansanwal.github.io/apiquick.io/assets/logo.svg" alt=""><span>APIQuick</span></a><a class="sib" href="https://asansanwal.github.io/aiquick.io/"><img src="https://asansanwal.github.io/aiquick.io/assets/logo.svg" alt=""><span>AIQuick</span></a><a class="sib" href="https://asansanwal.github.io/quickdigital.io/"><img src="https://asansanwal.github.io/quickdigital.io/assets/logo.svg" alt=""><span>QuickDigital</span></a><a class="sib" href="https://asansanwal.github.io/websitetools.io/"><img src="https://asansanwal.github.io/websitetools.io/assets/logo.svg" alt=""><span>WebsiteTools</span></a><a class="sib" href="https://asansanwal.github.io/vansha.com/"><img src="https://asansanwal.github.io/vansha.com/assets/logo.svg" alt=""><span>Vansha</span></a></div></section>
+<footer>QuickAIHub is a product of <a href="https://github.com/asansanwal">asansanwal</a>. This page is a project page; the live site is <a href="https://quickaihub.io">quickaihub.io</a>. Screenshots captured from the live site.</footer>
+</div>
+</body>
+</html>
